@@ -280,3 +280,12 @@ button {
 #warning {
     font-size: 15px;
 }
+
+/* Footer  */
+footer {
+    background-color: #246a73;
+}
+
+footer p{
+    text-align: center;
+}
