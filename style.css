@@ -8,7 +8,7 @@
 html {
     background-color: #A3C4BC;
     scroll-behavior: smooth;
-    font-family: 'Glory', sans-serif;
+    font-family: 'Glory', sans-serif; 
 }
 
 a {
@@ -18,6 +18,11 @@ a {
 h1 {
     font-size: 45px;
     font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+    color:#160F29
 }
 
 p {
@@ -46,6 +51,7 @@ nav {
     justify-content: space-between;
     width: 100%;
     background-color: #E7EFC5;
+    position: fixed;
 }
 
 
@@ -93,6 +99,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: #246a73;
+    padding-top: 70px;
 }
 
 .textbox {
@@ -166,7 +173,65 @@ nav {
     box-shadow: 0 0 20px #246a73;
 }
 
-.skill h2 {
-    font-size: 35px;
-    color:#160F29
+
+/* Project Section */
+
+.project-section {
+    justify-content: center;
+    background-color: #9A879D;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 24px 50px 24px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap:8px;
+    padding: 24px;
+    color: #160F29;
+}
+
+.project-icon {
+    width: 265px;
+    height: 280px;
+    border: 15px solid #A3C4BC;
+    border-radius: 30px;
+    box-shadow: 2px 1px #246a73;
+    object-fit: cover;
+}
+
+.project-icon:hover {
+    box-shadow: 0 0 20px #246a73; 
+}
+
+.project-text {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Motivational-Section */
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 90px 90px;
+    font-size: 25px;
+}
+
+.quote {
+   text-align: center;
+   font-size: 60px;
+}
+
+.quote-section p{
+    text-align: end;
+    font-weight: bolder;
 }
