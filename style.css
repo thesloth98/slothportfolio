@@ -54,6 +54,11 @@ nav {
     position: fixed;
 }
 
+button {
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
 
 .logo {
     height: 50px;
@@ -120,14 +125,11 @@ nav {
 }
 
 .main-button {
-    border: solid 3px #A3C4BC;
-    border-radius: 5px;
-    background-color: #E7EFC5;
-    color: #246a73;
-    font-weight: 500;
-    font-size: 20px;
     padding: 4px 24px;
     align-self: center;
+    background-color: #E7EFC5;
+    color: #246a73;
+    border: solid 3px #A3C4BC;
 }
 
 .main-button:hover {
@@ -224,6 +226,8 @@ nav {
     flex-direction: column;
     padding: 90px 90px 90px;
     font-size: 25px;
+    border-top: 10px solid #E7EFC5;
+    border-bottom: 10px solid #E7EFC5 ;;
 }
 
 .quote {
@@ -234,4 +238,45 @@ nav {
 .quote-section p{
     text-align: end;
     font-weight: bolder;
+}
+
+/* Contact Section */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center;
+    background-color: #9A879D;
+    border: 10px solid #246a73;
+    border-radius: 5px;
+    padding: 30px 50px;
+    margin: 120px 50px;
+    max-width: 700px;
+}
+
+.email-text p{
+    padding-right: 30px;
+}
+
+.email-button {
+    flex-shrink: 0;
+    height: 50px;
+    width: 120px;
+    padding: 5 20 px;
+    margin: 25px auto;
+    border: solid 3px #246a73;
+    background-color: #9A879D;
+    color: #E7EFC5;
+}
+
+.email-button:hover{
+    background-color:#160F29;
+}
+
+#warning {
+    font-size: 15px;
 }
